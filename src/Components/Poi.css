@@ -1,0 +1,45 @@
+.poi-wrapper {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  border: none;
+  background-color: white;
+}
+
+.poi-wrapper:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.poi-logo {
+  height: 40px;
+  margin-left: 12px;
+}
+
+.poi-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.poi-info-container h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.poi-info-container span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
